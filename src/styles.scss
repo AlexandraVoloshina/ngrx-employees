@@ -1,0 +1,57 @@
+/* You can add global styles to this file, and also import other style files */
+@import '@angular/material/prebuilt-themes/pink-bluegrey.css';
+
+html, body { height: 100%; }
+body { 
+    margin: 0; 
+    font-family: Roboto, "Helvetica Neue", sans-serif; 
+}
+
+.mat-app-background {
+    background-color: #fff;
+    color: #000;
+}
+
+::ng-deep .mat-form-field {
+    background-color: white;
+    width: 200px;
+
+    .mat-input-element {
+        color: black;
+    }
+    .mat-form-field-label {
+        color: black;
+    }
+    .mat-form-field-underline {
+        background-color: black;
+    }
+    .mat-form-field-ripple {
+        background-color: black;
+    }
+    .mat-form-field-required-marker {
+        color: black;
+    }
+    .mat-form-field-flex {
+        background-color: lightgray;
+    }
+}
+
+table {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.mat-table {
+    background: #fff;
+}
+
+.mat-header-cell{
+    color: #000;
+    padding-left: 20px;
+    font-size: 14px;
+}
+.mat-cell{
+    color: #000;
+    text-align: left;
+    padding-left: 20px;
+}

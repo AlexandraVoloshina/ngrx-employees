@@ -1,0 +1,14 @@
+<div class="container">
+    <h1>Make a choice:</h1>
+    <button mat-raised-button (click)="loadAllEmployees()">Show All Employees</button>
+    <button mat-raised-button (click)="createEmployeeView()">Create Employee</button>
+    <button mat-raised-button (click)="getEmployeeByIdView()">Search Employee By Id</button>
+
+    <div [ngSwitch]="task">
+        <app-all-employee *ngSwitchCase="'all'"></app-all-employee>
+        <app-create-employee *ngSwitchCase="'create'"></app-create-employee>
+        <app-get-employee *ngSwitchCase="'get'"></app-get-employee>
+        <div *ngSwitchDefault><p class="text">Select Task</p></div>
+      </div>
+</div>
+

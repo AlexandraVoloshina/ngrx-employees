@@ -1,0 +1,29 @@
+.container{
+    text-align: left;
+    margin-top: 10px;
+}
+
+::ng-deep .mat-form-field {
+    background-color: white;
+    width: 500px;
+    margin-top: 20px;
+
+    .mat-input-element {
+        color: black;
+    }
+    .mat-form-field-label {
+        color: black;
+    }
+    .mat-form-field-underline {
+        background-color: black;
+    }
+    .mat-form-field-ripple {
+        background-color: black;
+    }
+    .mat-form-field-required-marker {
+        color: black;
+    }
+    .mat-form-field-flex {
+        background-color: lightgray;
+    }
+}
